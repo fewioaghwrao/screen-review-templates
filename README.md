@@ -261,4 +261,6 @@ docs/
 
 ## License
 
-ライセンスは必要に応じて追加予定です。
+このリポジトリは **CC BY 4.0 (Creative Commons Attribution 4.0 International)** のもとで公開しています。
+
+テンプレートや資料を利用・改変・再配布する場合は、ライセンス条件に従って出典表示を行ってください。
