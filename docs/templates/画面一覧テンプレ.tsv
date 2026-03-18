@@ -1,6 +1,34 @@
 No	画面名	画面ID	URL/パス	画面種別	主な機能	主な部品	共通部品有無	重要度	優先確認	代表画面候補	備考
-1	ログイン画面	LOGIN	/login	入力	認証	入力欄、ボタン、メッセージ	有	A	○	○	初期導線のため優先度高
-2											
-3											
-4											
-5											
+1	ログインページ	LOGIN	/login	入力	認証	入力欄、ボタン、メッセージ	有	A	○	○	初期導線のため優先度高
+2	パスワード再設定ページ	PASSWORD_RESET	/password/reset	入力	再設定依頼	入力欄、ボタン、メッセージ	有	B		入力系補助画面
+3	パスワード編集ページ	PASSWORD_EDIT	/password/edit	入力	パスワード変更	入力欄、ボタン、メッセージ	有	B		入力系補助画面
+4	利用規約ページ	TERMS	/terms	詳細	規約参照	本文、見出し	有	C			静的ページ
+5	プライバシーポリシーページ	PRIVACY	/privacy	詳細	ポリシー参照	本文、見出し	有	C			静的ページ
+6	特定商取引法に基づく表記ページ	LEGAL_NOTICE	/legal	詳細	法定表記参照	本文、見出し	有	C			静的ページ
+7	トップページ	TOP	/top	メニュー	各機能への導線	検索ボックス、ボタン、リンク、メニュー	有	A	○	○	主要導線の起点
+8	スタジオ一覧ページ	STUDIO_LIST	/studios	一覧	検索・参照	検索条件、一覧、ボタン、並び替え	有	A	○	○	一覧系代表画面
+9	スタジオ詳細ページ	STUDIO_DETAIL	/studios/detail	詳細	スタジオ参照・予約導線	詳細情報、予約入力フォーム、カレンダー、レビュー	有	A	○	○	詳細系代表画面
+10	会員情報ページ	MEMBER_INFO	/member	詳細	会員情報参照	表示項目、編集リンク	有	B		○	会員系代表候補
+11	会員情報編集ページ	MEMBER_EDIT	/member/edit	入力	会員情報更新	入力欄、ボタン、メッセージ	有	A	○	○	入力系代表画面
+12	予約内容確認ページ	RESERVATION_CONFIRM	/reservations/confirm	確認	予約内容確認	確認項目、ボタン、メッセージ	有	A	○	○	確認導線の主要画面
+13	決済ページ（Stripe）	PAYMENT_STRIPE	/payments/checkout	入力	決済	入力欄、ボタン、決済情報	有	A	○	○	外部連携含む重要画面
+14	予約一覧・履歴ページ	RESERVATION_HISTORY	/reservations	一覧	予約履歴参照	一覧、ボタン	有	B		一覧系補助画面
+15	予約一覧ページ（スタジオ提供者向け）	HOST_RESERVATIONS	/host/reservations	一覧	予約管理	検索条件、一覧、承認/キャンセル操作	有	A	○	○	提供者一覧系代表
+16	レビュー一覧ページ（スタジオ提供者向け）	HOST_REVIEWS	/host/reviews	一覧	レビュー管理	検索条件、一覧、公開設定	有	B		一覧系補助画面
+17	統計一覧ページ（スタジオ提供者向け）	HOST_STATISTICS	/host/statistics	一覧	統計参照	一覧、集計表示	有	B		統計系画面
+18	売上明細一覧ページ（スタジオ提供者向け）	HOST_SALES_LIST	/host/sales	一覧	売上明細参照	一覧、詳細ボタン、CSV出力	有	A	○	○	一覧+出力系代表画面
+19	売上明細詳細ページ（スタジオ提供者向け）	HOST_SALES_DETAIL	/host/sales/detail	詳細	売上明細参照	明細表示、戻るボタン、CSV/PDF出力	有	B		詳細系補助画面
+20	スタジオ詳細ページ（スタジオ提供者向け）	HOST_STUDIO_DETAIL	/host/studios/detail	詳細	スタジオ情報参照	詳細情報、カレンダー、各種設定導線	有	A	○	○	提供者詳細系代表
+21	スタジオ一覧ページ（スタジオ提供者向け）	HOST_STUDIO_LIST	/host/studios	一覧	スタジオ管理導線	一覧、設定ボタン、詳細ボタン	有	A	○	○	設定系導線の起点
+22	休館日設定ページ	HOST_HOLIDAY_SETTINGS	/host/settings/holiday	入力	休館日設定	カレンダー、入力欄、反映ボタン	有	B		入力系補助画面
+23	営業時間設定ページ	HOST_BUSINESS_HOURS_SETTINGS	/host/settings/business-hours	入力	営業時間設定	入力欄、戻るボタン	有	B		入力系補助画面
+24	料金ルール設定ページ	HOST_PRICING_RULES_SETTINGS	/host/settings/pricing	入力	料金ルール設定	入力欄、反映ボタン	有	B		入力系補助画面
+25	データ一覧ページ（管理者向け）	ADMIN_DATA_LIST	/admin/data	一覧	データ参照	集計表示、一覧	有	B		管理系一覧画面
+26	予約一覧ページ（管理者向け）	ADMIN_RESERVATIONS	/admin/reservations	一覧	予約管理	検索条件、一覧、承認/キャンセル	有	A	○	○	管理者一覧系代表
+27	会員一覧ページ（管理者向け）	ADMIN_MEMBERS	/admin/members	一覧	会員管理	検索条件、一覧、有効/無効切替	有	A	○	○	管理者一覧系代表
+28	ログ一覧ページ（管理者向け）	ADMIN_LOGS	/admin/logs	一覧	ログ参照	検索条件、一覧	有	B		管理系一覧画面
+29	スタジオ一覧ページ（管理者向け）	ADMIN_STUDIOS	/admin/studios	一覧	スタジオ管理	検索条件、一覧、登録/編集/削除ボタン	有	A	○	○	管理者一覧+操作系代表
+30	スタジオ登録ページ（管理者向け）	ADMIN_STUDIO_CREATE	/admin/studios/new	入力	スタジオ登録	入力欄、登録ボタン	有	A	○	○	管理者入力系代表
+31	スタジオ基本情報ページ（管理者向け）	ADMIN_STUDIO_BASIC	/admin/studios/basic	詳細	基本情報参照	表示項目、編集リンク	有	B		管理系詳細画面
+32	スタジオ基本情報編集ページ（管理者向け）	ADMIN_STUDIO_BASIC_EDIT	/admin/studios/basic/edit	入力	基本情報更新	入力欄、更新ボタン	有	B		管理系入力画面
+33	管理設定ページ（管理者向け）	ADMIN_SETTINGS	/admin/settings	入力	税率・手数料設定	入力欄、保存ボタン	有	A	○	○	設定系代表画面		
