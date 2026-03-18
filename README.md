@@ -1,4 +1,4 @@
-# Screen Review Templates
+# 画面改修向け確認観点テンプレート集
 
 画面改修案件における **確認観点整理・横断確認・影響範囲整理** を行うためのテンプレート集です。
 
@@ -259,7 +259,7 @@ docs/
 
 ---
 
-## License
+## ライセンス
 
 このリポジトリは **CC BY 4.0 (Creative Commons Attribution 4.0 International)** のもとで公開しています。
 
